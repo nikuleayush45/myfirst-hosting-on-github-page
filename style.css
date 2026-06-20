@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4fff4;
+}
+
+header{
+    background:green;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    color:green;
+    margin-bottom:10px;
+}
+
+h1{
+    text-align:center;
+    margin:20px;
+    color:green;
+}
+
+p, ul, form{
+    width:80%;
+    margin:auto;
+    padding:20px;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+}
+
+button{
+    background:green;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+footer{
+    background:green;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:50px;
+}
