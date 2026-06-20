@@ -1,128 +1,126 @@
-*{
+/* General Style */
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
     font-family: Arial, sans-serif;
     background-color: #f4f8f2;
+    color: #333;
 }
 
-header{
-    background-color: #2e7d32;
+/* Header */
+header {
+    background-color: #2e8b57;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-nav{
+nav {
     margin-top: 10px;
 }
 
-nav a{
-    color: white;
+nav a {
     text-decoration: none;
+    color: white;
     margin: 0 15px;
     font-weight: bold;
 }
 
-nav a:hover{
+nav a:hover {
     color: yellow;
 }
 
-.hero{
+/* Home Page Hero Section */
+.hero {
     text-align: center;
     padding: 80px 20px;
+    background: linear-gradient(to right, #90ee90, #32cd32);
+    color: white;
 }
 
-.hero h2{
-    color: #2e7d32;
-    margin-bottom: 15px;
+.hero h2 {
+    font-size: 35px;
 }
 
-.hero p{
+.hero p {
     font-size: 18px;
 }
 
-h1{
+/* Common Page Styling */
+h1 {
     text-align: center;
-    color: #2e7d32;
-    margin: 20px 0;
+    color: #2e8b57;
+    margin-top: 30px;
 }
 
-p, ul{
-    width: 80%;
-    margin: auto;
-    line-height: 1.8;
+p {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 20px;
 }
 
-ul{
-    padding-left: 40px;
+/* Crops Page */
+ul {
+    width: 250px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
 }
 
-form{
-    width: 50%;
-    margin: 20px auto;
+ul li {
+    background-color: #2e8b57;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contact Form */
+form {
+    width: 350px;
+    margin: 30px auto;
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px lightgray;
+    box-shadow: 0 0 10px gray;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
-button{
-    background-color: #2e7d32;
+button {
+    background-color: #2e8b57;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
-button:hover{
-    background-color: #1b5e20;
+button:hover {
+    background-color: #1f6b43;
 }
 
-footer{
-    background-color: #2e7d32;
+/* Back Link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #2e8b57;
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 40px;
-}
-h1{
-    text-align:center;
-    color:#2e7d32;
-    margin:20px 0;
-}
-
-.content{
-    width:80%;
-    margin:30px auto;
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px lightgray;
-}
-
-ul li{
-    padding:10px;
-    font-size:18px;
-}
-
-.back-btn{
-    display:block;
-    width:150px;
-    margin:20px auto;
-    text-align:center;
-    text-decoration:none;
-    background:#2e7d32;
-    color:white;
-    padding:10px;
-    border-radius:5px;
+    margin-top: 50px;
 }
