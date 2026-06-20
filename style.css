@@ -95,3 +95,34 @@ footer{
     padding: 15px;
     margin-top: 40px;
 }
+h1{
+    text-align:center;
+    color:#2e7d32;
+    margin:20px 0;
+}
+
+.content{
+    width:80%;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+ul li{
+    padding:10px;
+    font-size:18px;
+}
+
+.back-btn{
+    display:block;
+    width:150px;
+    margin:20px auto;
+    text-align:center;
+    text-decoration:none;
+    background:#2e7d32;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
