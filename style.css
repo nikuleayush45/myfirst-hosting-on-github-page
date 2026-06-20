@@ -1,67 +1,97 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    font-family:Arial, sans-serif;
-    background:#f4fff4;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8f2;
 }
 
 header{
-    background:green;
-    color:white;
-    padding:20px;
-    text-align:center;
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    margin-top: 10px;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:10px;
-    font-weight:bold;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
 }
 
 .hero{
-    text-align:center;
-    padding:100px 20px;
+    text-align: center;
+    padding: 80px 20px;
 }
 
 .hero h2{
-    color:green;
-    margin-bottom:10px;
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 18px;
 }
 
 h1{
-    text-align:center;
-    margin:20px;
-    color:green;
+    text-align: center;
+    color: #2e7d32;
+    margin: 20px 0;
 }
 
-p, ul, form{
-    width:80%;
-    margin:auto;
-    padding:20px;
+p, ul{
+    width: 80%;
+    margin: auto;
+    line-height: 1.8;
+}
+
+ul{
+    padding-left: 40px;
+}
+
+form{
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
 }
 
 input, textarea{
-    width:100%;
-    padding:10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 button{
-    background:green;
-    color:white;
-    border:none;
-    padding:10px 20px;
-    cursor:pointer;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1b5e20;
 }
 
 footer{
-    background:green;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:50px;
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
